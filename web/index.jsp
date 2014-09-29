@@ -9,7 +9,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <link rel="stylesheet" href="login.css" type="text/css">
+        <link rel="stylesheet" href="format.css" type="text/css">
         <title>Princeton-Plainsboro Teaching Hospital</title>
     </head>
     <body background="login.jpg">
@@ -20,11 +20,11 @@
 
 <nav>
     <a href="patient.html">Patient Section</a><br><br>
-    <a href="doclogin.jsp">Doctor Section<br><br>
-    Nurse Section<br><br>
-    Intern Section<br><br>
-    Receptionist Section<br><br>
-    Accountant Section
+    <a href="doclogin.jsp">Doctor Section</a><br><br>
+    <a href="doclogin.jsp">Nurse Section</a><br><br>
+    <a href="doclogin.jsp">Intern Section</a><br><br>
+    <a href="doclogin.jsp">Receptionist Section</a><br><br>
+    <a href="doclogin.jsp">Accountant Section</a>
 </nav>
  
 <section>

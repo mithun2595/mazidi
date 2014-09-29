@@ -23,6 +23,13 @@ nav {
     float:left;
     padding:5px; 
 }
+a:link {
+    color:white;
+}
+a:visited {
+    color:white;
+}
+
 section {
     width:350px;
     color:white;
