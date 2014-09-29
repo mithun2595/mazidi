@@ -14,11 +14,24 @@ header {
     padding:5px; 
 }
 section {
-    width:350px;
+    width:1000px;
     color:white;
     float:left;
     padding:10px; 
 }
+
+label{
+    display: inline-block;
+    float: left;
+    clear: left;
+    width: 250px;
+    text-align:center;
+}
+input {
+  display: inline-block;
+  //float: left;
+}
+
 nav ul ul {
 	display: none;
 }

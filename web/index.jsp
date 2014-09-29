@@ -19,7 +19,7 @@
 </header>
 
 <nav>
-    <a href="patient.html">Patient Section</a><br><br>
+    <a href="patient/patient.html">Patient Section</a><br><br>
     <a href="doclogin.jsp">Doctor Section</a><br><br>
     <a href="doclogin.jsp">Nurse Section</a><br><br>
     <a href="doclogin.jsp">Intern Section</a><br><br>
