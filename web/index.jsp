@@ -10,7 +10,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <link rel="stylesheet" href="login.css" type="text/css">
-        <title>JSP Page</title>
+        <title>Princeton-Plainsboro Teaching Hospital</title>
     </head>
     <body background="login.jpg">
         
@@ -19,13 +19,14 @@
 </header>
 
 <nav>
-Patient Section<br>
-Doctor Section<br>
-Nurse Section<br>
-Intern Section<br>
-Receptionist Section<br>
+    <a href="patient.html">Patient Section</a><br><br>
+    <a href="doclogin.jsp">Doctor Section<br><br>
+    Nurse Section<br><br>
+    Intern Section<br><br>
+    Receptionist Section<br><br>
+    Accountant Section
 </nav>
-
+ 
 <section>
 <h1>About Us</h1>
 <p>
@@ -35,10 +36,11 @@ Receptionist Section<br>
 We ensure well managed hospitals which provide safe, high quality care to every patient, every time, is the ultimate responsibility of the Trust Board, which is leading our drive to become an NHS Foundation Trust.
 We genuinely want to work with patients and the public to develop and enhance our services, and welcome feedback on all aspects of our care.
 </p>
+
 </section>
 
 <footer>
-Copyright ©princeton-plainsboro.com
+Copyright ©Princeton-Plainsboro.com
 </footer>
 
     </body>
