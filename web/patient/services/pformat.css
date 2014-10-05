@@ -31,6 +31,9 @@ input {
   display: inline-block;
   //float: left;
 }
+nav{
+    text-align:center;
+}
 
 nav ul ul {
 	display: none;

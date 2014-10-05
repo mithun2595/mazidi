@@ -35,7 +35,7 @@ if(infocus=='back'){signupWindow.blur();signupWindow.location=mypage;signupWindo
         <section>
             <h2 ><center>Request an appointment</center></h2>
        
-        <form method="post" action="appointmentreq.class">
+        <form action="../../FixAppointment" method="post">
             <div>
                 <label>Name:</label><input type="text" name="pname" /><br><br>
                 <label>User Name:</label><input type="text" name="uname" /><br><br>
@@ -54,7 +54,7 @@ if(infocus=='back'){signupWindow.blur();signupWindow.location=mypage;signupWindo
             <label>Intern Required:</label><input type="radio" name="intern" value="No"> No</input>
                                            <input type="radio" name="intern" value="Yes"> Yes</input><br><br>
             
-            <label>Message :</label><textarea rows="4" cols="50" ></textarea><br><br>
+            <label>Message :</label><textarea rows="4" cols="50" name="msg" ></textarea><br><br>
             <div style="text-align:center">
             <input type="submit" value="Submit your request" />
             </div><br><br><br><br>

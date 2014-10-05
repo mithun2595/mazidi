@@ -11,6 +11,22 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <link rel="stylesheet" href="format.css" type="text/css">
         <title>Princeton-Plainsboro Teaching Hospital</title>
+        <SCRIPT LANGUAGE='JAVASCRIPT' TYPE='TEXT/JAVASCRIPT'>
+<!--
+var popupWindow=null;
+function popup(mypage,myname,w,h,pos,infocus){
+
+if (pos == 'random')
+{LeftPosition=(screen.width)?Math.floor(Math.random()*(screen.width-w)):100;TopPosition=(screen.height)?Math.floor(Math.random()*((screen.height-h)-75)):100;}
+else
+{LeftPosition=(screen.width)?(screen.width-w)/2:100;TopPosition=(screen.height)?(screen.height-h)/2:100;}
+settings='width='+ w + ',height='+ h + ',top=' + TopPosition + ',left=' + LeftPosition + ',scrollbars=no,location=no,directories=no,status=no,menubar=no,toolbar=no,resizable=no';popupWindow=window.open('',myname,settings);
+if(infocus=='front'){popupWindow.focus();popupWindow.location=mypage;}
+if(infocus=='back'){popupWindow.blur();popupWindow.location=mypage;popupWindow.blur();}
+
+}
+// -->
+</script>
     </head>
     <body background="login.jpg">
         
@@ -20,11 +36,11 @@
 
 <nav>
     <a href="patient/patient.html">Patient Section</a><br><br>
-    <a href="doclogin.jsp">Doctor Section</a><br><br>
-    <a href="doclogin.jsp">Nurse Section</a><br><br>
+    <a href=".jsp">Doctor Section</a><br><br>
+    <a href="javascript:popup('nurse/nlogin.jsp','pagename','480','480','center','front');">Nurse Section</a><br><br>
     <a href="doclogin.jsp">Intern Section</a><br><br>
-    <a href="doclogin.jsp">Receptionist Section</a><br><br>
-    <a href="doclogin.jsp">Accountant Section</a>
+    <a href="doclogin.jsp">Receptionist</a><br><br>
+    <a href="doclogin.jsp">Accountant</a>
 </nav>
  
 <section>

@@ -19,6 +19,9 @@ section {
     float:left;
     padding:10px; 
 }
+nav{
+    text-align:center;
+}
 nav ul ul {
 	display: none;
 }

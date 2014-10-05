@@ -4,7 +4,7 @@ To change this template file, choose Tools | Templates
 and open the template in the editor.
 */
 /* 
-    Created on : Sep 29, 2014, 9:44:21 PM
+    Created on : Oct 3, 2014, 8:05:33 PM
     Author     : acer
 */
 header {
@@ -14,14 +14,27 @@ header {
     padding:5px; 
 }
 section {
-    width:350px;
+    width:1000px;
     color:white;
     float:left;
     padding:10px; 
 }
+
+label{
+    display: inline-block;
+    float: left;
+    clear: left;
+    width: 250px;
+    text-align:center;
+}
+input {
+ // display: inline-block;
+  //float: left;
+}
 nav{
     text-align:center;
 }
+
 nav ul ul {
 	display: none;
 }
@@ -92,3 +105,4 @@ footer {
     text-align:center;
     padding:5px; 
 }
+

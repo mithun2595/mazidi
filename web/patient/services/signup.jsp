@@ -14,8 +14,7 @@
 %>
 
 <!DOCTYPE html>
- <%@ page import="java.sql.*" %> 
-<%@ page import="java.io.*" %> 
+
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -25,31 +24,8 @@
     </head>
     <body background="login.jpg">
        
-<% 
-try {
- Class.forName("java.sql.Driver");
-String connectionURL = "jdbc:mysql://localhost:3306/hospitalmanagement"; 
-Connection connection = null; 
 
-connection = DriverManager.getConnection(connectionURL,"root","12021995");
 
-// check weather connection is established or not by isClosed() method 
-if(!connection.isClosed())
-%>
-<font size="+3" color="green"></b>
-<% 
-out.println("Successfully connected to " + "MySQL server using TCP/IP...");
-connection.close();
-}
-catch(Exception ex){
-%>
-</font>
-<font size="+3" color="red"></b>
-<%
-out.println("Unable to connect to database.");
-}
-%>
-</font>
 
         
         
@@ -61,19 +37,19 @@ out.println("Unable to connect to database.");
         <section>
             <h2 >Sign Up</h2>
        
-        <form method="post" action="">
+            <form action="../../NewServlet" method="post">
             
                 Name       :<input type="text" name="pname" /><br><br>
                 E-mail     :<input type="text" name="pmail" /><br><br>
                 Age         :<input type="text" name="page" /><br><br>
-                Mobile Phone:</label><input type="text" name="page" /><br><br>
-                Address     :<textarea rows="4" cols="50" ></textarea><br><br>
-            Medical History :<textarea rows="4" cols="50" ></textarea><br><br>
-            Your User-ID: <input type="text" name="pid" value="P<%=generateRandomNumber(1000,8888)%>"><br><br>
+                Mobile Phone:</label><input type="text" name="pno" /><br><br>
+                Address     :<textarea rows="4" cols="50" name="paddr" ></textarea><br><br>
+            Medical History :<textarea rows="4" cols="50" name="mh" ></textarea><br><br>
+            Your User-ID: <input type="text" name="pid" value="P<%=generateRandomNumber(1000,8888)%>"><br>
             <input type="submit" value="Sign in" >
            
            
-            <br><br><br><br>
+            <br><br>
             
             </label></section>  
  <footer>
